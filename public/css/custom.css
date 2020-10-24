@@ -1,0 +1,99 @@
+/*
+ ________________________
+ |
+ |  Table of Contents
+ |_______________________
+
+    1. Global
+    2. Typography
+    3. Components
+        3.1 Products
+
+
+
+
+
+
+*/
+
+
+
+
+
+/*
+ ________________________
+ |
+ |  Global
+ |_______________________
+*/
+body,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.invalid-feedback {
+    display: block;
+}
+
+
+/*
+ ________________________
+ |
+ |  Typography
+ |_______________________
+*/
+
+body {
+    line-height: 1.6;
+}
+
+/*
+ ________________________
+ |
+ |  Components
+ |_______________________
+*/
+
+/*
+________________________
+| Products
+|_______________________
+*/
+
+
+/* Index Product Section */
+
+.product__image__container {
+    max-width: 100%;
+    width: 100%;
+}
+
+.product__image__container .product-image {
+
+    width: 80%;
+    height: auto;
+    margin: 0 10% .5rem;
+}
+
+/* Buttons */
+
+/* Create Product Section */
+
+.img-preview-container {
+
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+.img-preview-container .img-preview {
+
+    min-width: 20%;
+    width: 20%;
+}
